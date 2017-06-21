@@ -1,0 +1,72 @@
+body{
+  background-color:#eee;
+  font-family: sans-serif;
+}
+#head{
+  background-color: grey;
+  min-height: 20px;
+}
+
+#main{
+  background-color: black;
+  font-size: 40px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#main h4{
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 90px;
+}
+
+#icon{
+  background-color:yellow;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  margin: auto;
+  position: relative;
+  bottom: 75px;
+  text-align: center;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transition: all 0.2s ease-in-out;
+  margin-bottom: -50px;
+}
+#icon:hover{
+  box-shadow: 0 6px 12px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+  cursor: pointer;
+}
+#icon img{
+  margin: auto;
+  width: 100px;
+}
+#icon h3{
+  margin-top: -10px;
+  color: black;
+  font-weight: bold;
+}
+
+#details{
+  padding: 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid grey;
+}
+#details .col-xs-6{
+  border-top: 1px solid grey;
+  color: black;
+  font-weight: bold;
+}
+#details .col-xs-6:nth-child(n+3){
+  border-bottom: 4px solid grey;
+}
+#details .col-xs-6:nth-child(2n+1){
+  border-right: 1px solid grey;
+}
+#details .large{
+  float: right;
+  font-size: 35px;
+}
+#details .col-xs-8{
+  margin-top: 28px;
+  margin-bottom: 2px;
+}
